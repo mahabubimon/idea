@@ -30,7 +30,8 @@ ul li {
   list-style: none;
 }
 
-ul li a, a {
+ul li a,
+a {
   text-decoration: none;
   color: #fff;
   padding: 1rem;
@@ -58,7 +59,7 @@ nav {
   font-size: 2.4rem;
 }
 
-.logo img{
+.logo img {
   height: 5rem;
   width: 4rem;
   margin-right: 1.6rem;
@@ -69,7 +70,7 @@ nav {
   right: 0;
 }
 
-.menu ul{
+.menu ul {
   display: flex;
   align-items: center;
 }
@@ -86,7 +87,8 @@ main {
   padding: 3.6rem;
 }
 /* topper css */
-#topper, #courses {
+#topper,
+#courses {
   background-color: #fff;
   padding: 3rem;
   margin-bottom: 3rem;
@@ -98,7 +100,8 @@ main {
 }
 
 .top-player,
-.top-blog, #courses{
+.top-blog,
+#courses {
   display: flex;
   flex-direction: column;
 }
@@ -159,19 +162,19 @@ hr {
 }
 
 .blog-name {
-    text-transform: capitalize;
-    font-size: 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
 }
 
 .author {
-    font-size: 1.6rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    color: gray;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: gray;
 }
 
 .author span {
-    color: #562eff;
+  color: #562eff;
 }
 
 /* courses css */
@@ -201,7 +204,9 @@ hr {
   height: 11rem;
 }
 
-.course-name, .instructor, .course-info {
+.course-name,
+.instructor,
+.course-info {
   font-family: Roboto, sans-serif;
   font-size: 2rem;
   color: #1e1e1e;
@@ -213,7 +218,7 @@ hr {
 
 .instructor {
   font-weight: 400;
-  color: #FF4A60;
+  color: #ff4a60;
   margin: 1.6rem 0;
 }
 
@@ -224,17 +229,17 @@ hr {
 }
 
 .rating {
-  color: #FFC014;
+  color: #ffc014;
 }
 
 .marks {
-  color: #A2A2A2;
+  color: #a2a2a2;
   margin: 0 0.6rem;
 }
 
 .duration {
-  color: #ED6B4F;
-  background: #FFE4E8;
+  color: #ed6b4f;
+  background: #ffe4e8;
   padding: 1rem;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
@@ -242,4 +247,3 @@ hr {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
-
